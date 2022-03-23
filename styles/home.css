@@ -10,6 +10,22 @@ body {
 a {
     text-decoration: none;
 }
+#loader {
+    background-color: #ecf0ef;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img#loader-gif {
+    width: 20%;
+}
 ul#header-ul {
     list-style: none;
     padding: 0;
