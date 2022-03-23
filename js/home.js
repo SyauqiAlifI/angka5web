@@ -1,4 +1,7 @@
+// Variables
 var theLoader = document.getElementById('loader');
+
+// Functions
 function loadingFun() {
     myVar = setTimeout(showPage, 3000);
 }

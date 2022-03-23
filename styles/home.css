@@ -23,6 +23,10 @@ a {
     align-items: center;
     flex-direction: column;
 }
+#main-screen {
+    display: none;
+    animation: fadeIn 3s linear;
+}
 img#loader-gif {
     width: 20%;
 }
@@ -118,6 +122,10 @@ img#logo-header {
     background-size: cover;
     height: auto;
 }
+strong#loading-page-text {
+    font-size: 26px;
+    color: #000;
+}
 /* Make it responsible to the screen */
 @media screen and (max-width: 1000px) {
     .header-logo {
@@ -198,6 +206,14 @@ img#logo-header {
         background-color: #ff2020;
     }
 }
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 /* End of animations */
 @keyframes nav-head-change-default {
     0% {
@@ -205,5 +221,13 @@ img#logo-header {
     }
     100% {
         background-color: rgba(255, 255, 255, 0);
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
