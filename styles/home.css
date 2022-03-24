@@ -32,19 +32,16 @@ img.raw-loader {
     width: 100px;
 }
 .top-5 {
-    transform: translateY(-260%);
-    animation: top5 1.5s ease-in-out infinite;
-    animation-delay: 200ms;
+    transform: translateY(0);
+    animation: top5 1.5s ease-in-out;
 }
 .center-5 {
-    transform: translateY(-260%);
-    animation: center5 1.5s ease-in-out infinite;
-    animation-delay: 240ms;
+    transform: translateY(0);
+    animation: center5 1.5s ease-in-out;
 }
 .bottom-5 {
-    transform: translateY(-560%);
-    animation: bottom5 1.5s ease-in-out infinite;
-    animation-delay: 280ms;
+    transform: translateY(-57%);
+    animation: bottom5 1.5s ease-in-out;
 }
 /* Pace */
 .pace {
@@ -251,33 +248,33 @@ strong#loading-page-text {
     0% {
         transform: translateY(-260%);
     }
-    50% {
+    /* 50% {
         transform: translateY(0);
-    }
+    } */
     100% {
-        transform: translateY(-260%);
+        transform: translateY(0);
     }
 }
 @keyframes center5 {
     0% {
         transform: translateY(-260%);
     }
-    50% {
+    /* 50% {
         transform: translateY(0%);
-    }
+    } */
     100% {
-        transform: translateY(-260%);
+        transform: translateY(0);
     }
 }
 @keyframes bottom5 {
     0% {
         transform: translateY(-560%);
     }
-    50% {
+    /* 50% {
         transform: translateY(-57%);
-    }
+    } */
     100% {
-        transform: translateY(-560%);
+        transform: translateY(-57%);
     }
 }
 /* End of animations */
