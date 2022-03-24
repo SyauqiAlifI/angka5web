@@ -33,15 +33,15 @@ img.raw-loader {
 }
 .top-5 {
     transform: translateY(0);
-    animation: top5 1.5s ease-in-out;
+    animation: top5 2s ease-in-out;
 }
 .center-5 {
     transform: translateY(0);
-    animation: center5 1.8s ease-in-out;
+    animation: center5 2.4s ease-in-out;
 }
 .bottom-5 {
-    transform: translateY(-57%);
-    animation: bottom5 2s ease-in-out;
+    transform: translateY(-58%);
+    animation: bottom5 2.9s ease-in-out;
 }
 /* Pace */
 .pace {
@@ -246,7 +246,7 @@ strong#loading-page-text {
 }
 @keyframes top5 {
     0% {
-        transform: translateY(-260%);
+        transform: translateY(-660%);
     }
     /* 50% {
         transform: translateY(0);
@@ -257,7 +257,7 @@ strong#loading-page-text {
 }
 @keyframes center5 {
     0% {
-        transform: translateY(-260%);
+        transform: translateY(-660%);
     }
     /* 50% {
         transform: translateY(0%);
@@ -268,13 +268,13 @@ strong#loading-page-text {
 }
 @keyframes bottom5 {
     0% {
-        transform: translateY(-560%);
+        transform: translateY(-1060%);
     }
     /* 50% {
         transform: translateY(-57%);
     } */
     100% {
-        transform: translateY(-57%);
+        transform: translateY(-58%);
     }
 }
 /* End of animations */
