@@ -37,11 +37,11 @@ img.raw-loader {
 }
 .center-5 {
     transform: translateY(0);
-    animation: center5 1.5s ease-in-out;
+    animation: center5 1.8s ease-in-out;
 }
 .bottom-5 {
     transform: translateY(-57%);
-    animation: bottom5 1.5s ease-in-out;
+    animation: bottom5 2s ease-in-out;
 }
 /* Pace */
 .pace {
