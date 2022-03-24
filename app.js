@@ -21,13 +21,13 @@ const server = http.createServer((req, res) => {
     const url = req.url;
 
     switch (url) {
-        case '/' || '/home':
+        case '/' || '/angka5web' || '/angka5web/home':
             renderHTML('./index.html', res);
             break;
-        case '/about':
+        case '/angka5web/about':
             renderHTML('./about/index.html', res);
             break;
-        case '/gallery':
+        case '/angka5web/gallery':
             renderHTML('./gallery/index.html', res);
             break;
         default:
