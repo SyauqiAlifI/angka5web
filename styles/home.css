@@ -33,17 +33,17 @@ img.raw-loader {
 }
 .top-5 {
     transform: translateY(-260%);
-    animation: top5 2s ease-in-out infinite;
+    animation: top5 1.5s ease-in-out infinite;
     animation-delay: 200ms;
 }
 .center-5 {
     transform: translateY(-260%);
-    animation: center5 2s ease-in-out infinite;
+    animation: center5 1.5s ease-in-out infinite;
     animation-delay: 240ms;
 }
 .bottom-5 {
     transform: translateY(-560%);
-    animation: bottom5 2s ease-in-out infinite;
+    animation: bottom5 1.5s ease-in-out infinite;
     animation-delay: 280ms;
 }
 /* main-screen */
