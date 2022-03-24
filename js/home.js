@@ -1,5 +1,6 @@
 // Variables
 var theLoader = document.getElementById('loader');
+var loadingText = document.getElementById('loading-page-text');
 
 // Functions
 function loadingFun() {
@@ -9,3 +10,4 @@ function showPage() {
     theLoader.style.display = 'none';
     document.getElementById('main-screen').style.display = 'block';
 }
+// 

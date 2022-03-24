@@ -10,6 +10,7 @@ body {
 a {
     text-decoration: none;
 }
+/* loader */
 #loader {
     background-color: #ecf0ef;
     position: fixed;
@@ -23,12 +24,31 @@ a {
     align-items: center;
     flex-direction: column;
 }
+#loader-img {
+    width: 100px;
+    height: 100px;
+}
+img.raw-loader {
+    width: 100px;
+}
+.top-5 {
+    transform: translateY(0);
+    animation: top5 2s ease-in-out infinite;
+}
+.center-5 {
+    transform: translateY(0);
+    animation: center5 2s ease-in-out infinite;
+}
+.bottom-5 {
+    transform: translateY(58%);
+    animation: bottom5 2s ease-in-out infinite;
+}
+/* main-screen */
 #main-screen {
     display: none;
-    animation: fadeIn 3s linear;
-}
-img#loader-gif {
-    width: 20%;
+    animation: fadeIn 1s ease-in-out;
+    width: 100%;
+    height: 100%;
 }
 ul#header-ul {
     list-style: none;
@@ -42,6 +62,7 @@ li.li-nav-head {
     animation: nav-head-change-default 0.3s;
     padding: 2%;
     cursor: pointer;
+    border-radius: 10px;
 }
 li.li-nav-head:hover {
     background-color: #ff2020;
@@ -75,7 +96,6 @@ a.nav-text-head {
     position: absolute;
     width: 100%;
     height: fit-content;
-
     z-index: 1;
 }
 .header-menu {
@@ -103,19 +123,6 @@ a#anchor-logo {
     left: 0%;
     width: 100%;
     z-index: 0;
-}
-.back-photo {
-    background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"); /*Test*/
-    display: block;
-    position: absolute;
-    z-index: -999;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 img#logo-header {
     width: 18%;
@@ -212,6 +219,39 @@ strong#loading-page-text {
     }
     100% {
         opacity: 1;
+    }
+}
+@keyframes top5 {
+    0% {
+        transform: translateY(-260%);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-260%);
+    }
+}
+@keyframes center5 {
+    0% {
+        transform: translateY(-260%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    100% {
+        transform: translateY(-260%);
+    }
+}
+@keyframes bottom5 {
+    0% {
+        transform: translateY(-560%);
+    }
+    50% {
+        transform: translateY(-57%);
+    }
+    100% {
+        transform: translateY(-560%);
     }
 }
 /* End of animations */
