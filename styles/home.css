@@ -142,16 +142,16 @@ ul#nav-main>li>a {
 ul#nav-main>li>a::before {
     position: absolute;
     content: "";
-    width: 2.5rem;
+    width: 4.5rem;
     height: 3.5rem;
     transform: skew(-40deg) translateX(-260%);
     z-index: -1;
-    background-color: #fd3535;
-    transition: all .6s ease-in-out;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all .8s ease-in-out;
 }
 /* hover */
 ul#nav-main>li>a:hover::before {
-    transform: skew(-40deg) translateX(150%);
+    transform: skew(-40deg) translateX(180%);
 }
 ul#nav-main>li>a:hover {
     color: #fff;
