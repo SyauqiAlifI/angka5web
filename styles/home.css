@@ -135,9 +135,9 @@ ul#nav-main>li>a {
     color: #fff;
     font-weight: 500;
     overflow: hidden;
-    border-radius: .15rem;
+    border-radius: .4rem;
     transition: all .2s ease-in-out;
-    background: rgba(255, 255, 255, 0.050);
+    background: rgba(255, 255, 255, 0.020);
     backdrop-filter: blur(5px);
 }
 ul#nav-main>li>a::before {
@@ -145,14 +145,14 @@ ul#nav-main>li>a::before {
     content: "";
     width: 4.5rem;
     height: 3.5rem;
-    transform: skew(-40deg) translateX(-260%);
+    transform: skew(-40deg) translateX(-100%);
     z-index: -1;
-    background: rgba(255, 255, 255, 0.1);
-    transition: all .8s ease-in-out;
+    background: rgba(255, 255, 255, 0.060);
+    transition: all .35s ease-in-out;
 }
 /* hover */
 ul#nav-main>li>a:hover::before {
-    transform: skew(-40deg) translateX(180%);
+    transform: skew(-40deg) translateX(100%);
 }
 ul#nav-main>li>a:hover {
     color: #fff;
@@ -211,3 +211,4 @@ ul#nav-main>li>a:hover {
         transform: translateY(-58%);
     }
 }
+/* Responses */
