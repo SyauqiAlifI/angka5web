@@ -134,22 +134,24 @@ ul#nav-main>li>a {
     color: #fff;
     font-weight: 500;
     overflow: hidden;
-    border-radius: .3rem;
+    border-radius: .15rem;
     transition: all .2s ease-in-out;
+    background: rgba(255, 255, 255, 0.050);
+    backdrop-filter: blur(5px);
 }
 ul#nav-main>li>a::before {
     position: absolute;
     content: "";
-    width: 10.5rem;
+    width: 2.5rem;
     height: 3.5rem;
-    transform: skew(-20deg) translateX(-150%);
+    transform: skew(-40deg) translateX(-260%);
     z-index: -1;
     background-color: #fd3535;
     transition: all .6s ease-in-out;
 }
 /* hover */
 ul#nav-main>li>a:hover::before {
-    transform: skew(-20deg) translateX(60%);
+    transform: skew(-40deg) translateX(150%);
 }
 ul#nav-main>li>a:hover {
     color: #fff;
