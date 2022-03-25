@@ -4,7 +4,7 @@ var loadingText = document.getElementById('loading-page-text');
 
 // Functions
 function loadingFun() {
-    myVar = setTimeout(showPage, 3000);
+    myVar = setTimeout(showPage, 5000);
 }
 function showPage() {
     theLoader.style.display = 'none';
@@ -17,6 +17,6 @@ function goToMyPage() {
 }
 
 // Tooltips
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-});
+// $(function () {
+//     $('[data-toggle="tooltip"]').tooltip()
+// });

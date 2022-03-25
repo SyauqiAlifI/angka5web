@@ -103,6 +103,7 @@ video#back-video {
     width: 12.5rem;
     height: auto;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 ul#nav-main {
     width: 100%;
@@ -156,6 +157,9 @@ ul#nav-main>li>a:hover::before {
 ul#nav-main>li>a:hover {
     color: #fff;
     font-size: 1em;
+}
+#logo-main>img:hover {
+    transform: translateY(-2.5%);
 }
 /* Animations */
 @keyframes fadeIn {
