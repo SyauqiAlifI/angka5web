@@ -21,29 +21,21 @@
         </div><br>
         <p><strong id="loading-page-text">Loading...</strong></p>
     </div>
-    <div class="body-container">
     </div>
     <div id="main-screen">
-        <div class="header-container">
-            <video class="header-photo" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="sources/back-video.mp4" type="video/mp4">
+        <div id="main-screen-content">
+            <video id="back-video" autoplay loop muted>
+                <source src="/sources/back-video.mp4" type="video/mp4">
             </video>
-            <div class="header-logo">
-                <a id="anchor-logo" href="/">
-                    <img id="logo-header" src="sources/angka5_kotak.svg" alt="logo">
-                </a>
+            <div id="logo-main" data-toggle="tooltip" title="Logo Angka 5">
+                <img src="/sources/angka5_kotak.svg" alt="Logo" onclick="goToMyPage()">
             </div>
-            <div id="nav-inside-header">
-                <div class="header-menu">
-                    <ul id="header-ul">
-                        <li onclick="" class="li-nav-head"><a class="nav-text-head" href="/angka5web/home">Home</a></li>
-                        <li onclick="" class="li-nav-head"><a class="nav-text-head" href="/angka5web/about">About</a></li>
-                        <li onclick="" class="li-nav-head"><a class="nav-text-head" href="/angka5web/gallery">Gallery</a></li>
-                    </ul>
-                </div>
-            </div>
+            <ul id="nav-main">
+                <li class="list-nav-main"><a data-toggle="tooltip" title="Go To Home Page" href="/angka5web/home">Home</a></li>
+                <li class="list-nav-main"><a data-toggle="tooltip" title="Go To About Page" href="/angka5web/about">About</a></li>
+                <li class="list-nav-main"><a data-toggle="tooltip" title="Go To Gallery Page" href="/angka5web/gallery">Gallery</a></li>
+            </ul>
         </div>
-    </div>
     </div>
     <script src="js/home.js"></script>
 </body>

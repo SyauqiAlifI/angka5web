@@ -8,6 +8,15 @@ function loadingFun() {
 }
 function showPage() {
     theLoader.style.display = 'none';
-    document.getElementById('main-screen').style.display = 'block';
+    theLoader.style.animationPlayState = 'running';
+    document.getElementById('main-screen').style.display = 'flex';
 }
-// 
+// Function 'goToMyPage'
+function goToMyPage() {
+    window.location.href = '/';
+}
+
+// Tooltips
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+});
